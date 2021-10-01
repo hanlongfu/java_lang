@@ -1,2 +1,5 @@
-package com.hanlongfu;public interface CanFly {
+package com.hanlongfu;
+
+public interface CanFly {
+    void fly();
 }

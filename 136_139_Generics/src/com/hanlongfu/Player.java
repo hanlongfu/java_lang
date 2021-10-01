@@ -1,2 +1,13 @@
-package com.hanlongfu;public class Player {
+package com.hanlongfu;
+
+public abstract class Player {
+    private String name;
+
+    public Player(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }

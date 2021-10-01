@@ -1,2 +1,7 @@
-package com.hanlongfu;public class SoccerPlayer {
+package com.hanlongfu;
+
+public class SoccerPlayer extends Player {
+    public SoccerPlayer(String name) {
+        super(name);
+    }
 }
